@@ -87,7 +87,8 @@ CREATE TABLE place
     user_id    INT NOT NULL COMMENT '장소 작성자 id',
  PRIMARY KEY ( place_id ),
  FOREIGN KEY( user_id ) REFERENCES user(user_id),
- CHECK (is_verified IN ('YES', 'NO'))
+ CHECK (is_verified IN ('YES', 'NO')),
+ UNIQUE (place_name, addr_detail)
 )
  COMMENT = '장소';
  
