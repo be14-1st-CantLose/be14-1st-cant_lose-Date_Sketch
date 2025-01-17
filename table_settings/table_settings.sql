@@ -152,13 +152,14 @@ CREATE TABLE course
     course_visited_date    DATETIME COMMENT '코스 방문 날짜',
     course_visited_weather    VARCHAR(255) COMMENT '코스 방문 날씨',
     likes    INT NOT NULL COMMENT '좋아요 수',
-    is_deleted    VARCHAR(255) NOT NULL COMMENT '삭제 여부',
+    is_deleted    VARCHAR(255) NOT NULL DEFAULT 'NO' COMMENT '삭제 여부',
     is_published    BOOLEAN NOT NULL COMMENT '발행여부',
     created_at    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '생성일',
     updated_at    DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT '수정일',
     user_id    INT NOT NULL COMMENT '코스 작성자 id',
  PRIMARY KEY ( course_id ),
- FOREIGN KEY (user_id) REFERENCES user(user_id)
+ FOREIGN KEY (user_id) REFERENCES user(user_id),
+ CHECK (is_deleted IN ('YES', 'NO'))
 )
  COMMENT = '코스'
  ENGINE=INNODB;
