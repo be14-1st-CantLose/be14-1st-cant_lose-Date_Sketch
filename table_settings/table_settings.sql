@@ -262,7 +262,7 @@ CREATE TABLE rating
  PRIMARY KEY ( rating_id ),
  FOREIGN KEY (user_id) REFERENCES user (user_id),
  FOREIGN KEY (place_id) REFERENCES place (place_id),
- UNIQUE KEY unique_user_place (user_id, place_id),
+ UNIQUE unique_user_place (user_id, place_id),
  CHECK (rating_score BETWEEN 0 AND 5)
 )
  COMMENT = '별점';
