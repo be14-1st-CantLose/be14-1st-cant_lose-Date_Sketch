@@ -1,3 +1,5 @@
+-- 관리자가 신고 처리 완료 시 해당 사용자의 신고 횟수 관리											
+
 DELIMITER $$
 
 CREATE TRIGGER handle_report_resolution
