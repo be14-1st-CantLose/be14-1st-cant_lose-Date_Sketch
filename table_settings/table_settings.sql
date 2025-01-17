@@ -161,7 +161,8 @@ CREATE TABLE course
  PRIMARY KEY ( course_id ),
  FOREIGN KEY (user_id) REFERENCES user(user_id),
  CHECK (is_deleted IN ('YES', 'NO')),
- CHECK (is_published IN ('PUBLIC', 'PRIVATE'))
+ CHECK (is_published IN ('PUBLIC', 'PRIVATE')),
+ CHECK (course_scope IN ('PUBLIC', 'PRIVATE'))
 )
  COMMENT = '코스'
  ENGINE=INNODB;
