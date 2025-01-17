@@ -81,12 +81,13 @@ CREATE TABLE place
     homepage    VARCHAR(255) COMMENT '홈페이지',
     operation_hours    VARCHAR(255) COMMENT '운영 시간',
     link    VARCHAR(255) COMMENT '링크',
-    is_verified    VARCHAR(255)  NOT NULL COMMENT '인증 여부',
+    is_verified    VARCHAR(255)  NOT NULL DEFAULT 'NO' COMMENT '인증 여부',
     rating_avg    DECIMAL(10,2) NOT NULL DEFAULT 0 COMMENT '별점 평균',
     rating_count    INT NOT NULL DEFAULT 0 COMMENT '별점 카운트',
     user_id    INT NOT NULL COMMENT '장소 작성자 id',
  PRIMARY KEY ( place_id ),
- FOREIGN KEY( user_id ) REFERENCES user(user_id)
+ FOREIGN KEY( user_id ) REFERENCES user(user_id),
+ CHECK (is_verified IN ('YES', 'NO'))
 )
  COMMENT = '장소';
  
