@@ -151,7 +151,7 @@ CREATE TABLE course
     course_scope    VARCHAR(255) NOT NULL COMMENT '코스 공개 범위',
     course_visited_date    DATETIME COMMENT '코스 방문 날짜',
     course_visited_weather    VARCHAR(255) COMMENT '코스 방문 날씨',
-    likes    INT NOT NULL COMMENT '좋아요 수',
+    likes    INT NOT NULL DEFAULT 0 COMMENT '좋아요 수',
     is_deleted    VARCHAR(255) NOT NULL DEFAULT 'NO' COMMENT '삭제 여부',
     is_published    BOOLEAN NOT NULL COMMENT '발행여부',
     created_at    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '생성일',
