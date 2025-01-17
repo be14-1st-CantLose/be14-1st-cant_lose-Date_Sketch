@@ -2,10 +2,6 @@
 
 CALL UpdateUserTiersByDate('2025.02.01');
 
--- 월별 글 쓴 인원 조회
-SELECT 
-FROM 
-
 -- 등급별 인원 조회 
 SELECT u.tier_id,COUNT(*)
 FROM test.`user` AS u
