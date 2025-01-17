@@ -1,1 +1,1 @@
-![질수없조 개념 모델링](https://github.com/user-attachments/assets/643770cc-1303-469f-a90d-1a47bb9515fd)
+![conceptual modeling](https://github.com/user-attachments/assets/b3d337e5-028d-4f90-b34c-0cccb39911c3)
