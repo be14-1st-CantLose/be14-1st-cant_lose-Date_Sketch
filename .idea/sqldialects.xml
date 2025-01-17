@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/test_cases/course.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/join_member/join_member.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/login/find_id.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/login/find_password.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/login/login.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/nickname_search.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_info_modify.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_password_modify.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_quit.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_status_private.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_status_public.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_type_search.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/user_testcases.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/table_settings/table_settings.sql" dialect="MariaDB" />
+  </component>
+</project>
