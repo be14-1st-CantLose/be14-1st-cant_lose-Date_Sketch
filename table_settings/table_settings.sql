@@ -233,7 +233,9 @@ CREATE TABLE likes
  PRIMARY KEY ( likes_id ),
  FOREIGN KEY ( course_id ) REFERENCES course (course_id),
  FOREIGN KEY ( comment_id ) REFERENCES comment (comment_id),
- CHECK (likes_type IN ('COURSE', 'COMMENT'))
+ CHECK (likes_type IN ('COURSE', 'COMMENT')),
+ UNIQUE (user_id, course_id),
+ UNIQUE (user_id, comment_id)
 )
  COMMENT = '좋아요';
 
