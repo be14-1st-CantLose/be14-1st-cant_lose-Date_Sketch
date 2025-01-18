@@ -9,6 +9,6 @@ UPDATE user
 
 -- 개인 정보 수정 확인
 SELECT
-        *
-FROM user
-WHERE user_email ='abc9541@gmail.com';
+       *
+  FROM user
+ WHERE user_email ='abc9541@gmail.com';

@@ -9,7 +9,7 @@ UPDATE user
 
 -- 바뀐 비밀번호 확인(재 로그인)
 SELECT
-        *
+       *
   FROM user
  WHERE user_email = 'abc9541@gmail.com'
    AND user_pwd = '06030603';
