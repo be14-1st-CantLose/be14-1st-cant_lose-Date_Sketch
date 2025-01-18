@@ -290,7 +290,7 @@ CREATE TABLE report
     message_id    INT COMMENT '메시지 id',
  PRIMARY KEY ( report_id ),
  CHECK (report_approved IN ('YES', 'NO')),
- CHECK (report_type IN ('COMMENT', 'COURSE', 'PLACE')),
+ CHECK (report_type IN ('COMMENT', 'COURSE', 'PLACE', 'MESSAGE')),
  FOREIGN KEY (reported_user_id) REFERENCES user (user_id),
  FOREIGN KEY (report_user_id) REFERENCES user (user_id),
  FOREIGN KEY (comment_id) REFERENCES comment (comment_id),
