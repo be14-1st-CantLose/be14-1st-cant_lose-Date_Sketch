@@ -1,3 +1,6 @@
+-- 최하단에 별점 관련 초기화 코드 있음. 
+-- 무조건 전체 실행 요망
+
 INSERT INTO place (place_id, place_name, addr_gu, addr_detail, phone_number, homepage, operation_hours, link, is_verified, rating_avg, rating_count, user_id)
 VALUES
 (1, '가게 1', '마포구', '81-1', '02-872-5024', 'http://place1.com', '10:00-22:00', 'http://link1.com', 'YES', 3.26, 150, 117),
@@ -900,3 +903,8 @@ VALUES
 (898, '가게 898', '중구', '70-8', '02-669-4756', 'http://place898.com', '10:00-22:00', 'http://link898.com', 'YES', 4.94, 340, 39),
 (899, '가게 899', '성북구', '12-9', '02-933-4687', 'http://place899.com', '10:00-22:00', 'http://link899.com', 'YES', 1.46, 129, 91),
 (900, '가게 900', '성동구', '83-0', '02-599-6306', 'http://place900.com', '10:00-22:00', 'http://link900.com', 'YES', 3.13, 149, 283);
+
+-- 별점 관련 컬럼 초기화 코드
+UPDATE place
+SET rating_avg = 0,
+    rating_count = 0;
