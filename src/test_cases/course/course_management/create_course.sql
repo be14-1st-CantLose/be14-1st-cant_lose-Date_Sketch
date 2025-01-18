@@ -5,6 +5,7 @@ SET @var_course_visited_date="2025-01-18";
 SET @var_course_visited_weather="맑음";
 SET @var_user_id=1;
 
+-- 코스 생성
 INSERT INTO course (
     course_name,
     course_comment,
@@ -23,3 +24,11 @@ VALUES (
     'PUBLIC', 
     @var_user_id
 );
+
+-- 코스에 장소 매칭(위에 생성된 course_id가 1이라 가정)
+INSERT INTO course_locations (course_id, place_id, place_seq)
+VALUES
+-- 코스 1: 장소 1, 2, 3
+(1, 1, 1),
+(1, 2, 2),
+(1, 3, 3),
