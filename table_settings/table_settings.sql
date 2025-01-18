@@ -281,7 +281,8 @@ CREATE TABLE report
     created_at    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '신고 시간',
     report_contents    VARCHAR(255) NOT NULL COMMENT '신고 내용',
     report_approved    VARCHAR(255) NOT NULL DEFAULT 'NO' COMMENT '신고처리상태',
-    user_id    INT NOT NULL COMMENT '피고인 id',
+    reported_user_id    INT NOT NULL COMMENT '피고인 id',
+    report_user_id    INT NOT NULL COMMENT '신고자 id',
     report_type    VARCHAR(255) NOT NULL COMMENT '신고 구분',
     course_id    INT COMMENT '코스',
     place_id    INT COMMENT '장소',
@@ -290,10 +291,15 @@ CREATE TABLE report
  PRIMARY KEY ( report_id ),
  CHECK (report_approved IN ('YES', 'NO')),
  CHECK (report_type IN ('COMMENT', 'COURSE', 'PLACE')),
- FOREIGN KEY (user_id) REFERENCES user (user_id),
+ FOREIGN KEY (reported_user_id) REFERENCES user (user_id),
+ FOREIGN KEY (report_user_id) REFERENCES user (user_id),
  FOREIGN KEY (comment_id) REFERENCES comment (comment_id),
  FOREIGN KEY (course_id) REFERENCES course (course_id),
- FOREIGN KEY (message_id) REFERENCES message (message_id)
+ FOREIGN KEY (message_id) REFERENCES message (message_id),
+ UNIQUE (reported_user_id, report_user_id, course_id),
+ UNIQUE (reported_user_id, report_user_id, place_id),
+ UNIQUE (reported_user_id, report_user_id, comment_id),
+ UNIQUE (reported_user_id, report_user_id, message_id)
 )
  COMMENT = '신고';
  
