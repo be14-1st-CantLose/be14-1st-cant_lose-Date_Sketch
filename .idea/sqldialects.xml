@@ -2,6 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/test_cases/course.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/my_page/follow_management/member_follow.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/join_member/join_member.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/login/find_id.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/login/find_password.sql" dialect="MariaDB" />
@@ -15,5 +16,6 @@
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_type_search.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_testcases.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/table_settings/table_settings.sql" dialect="MariaDB" />
+    <file url="PROJECT" dialect="MariaDB" />
   </component>
 </project>
