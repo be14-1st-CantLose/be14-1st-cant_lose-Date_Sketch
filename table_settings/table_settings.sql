@@ -298,6 +298,7 @@ CREATE TABLE report
  FOREIGN KEY (comment_id) REFERENCES comment (comment_id),
  FOREIGN KEY (course_id) REFERENCES course (course_id),
  FOREIGN KEY (message_id) REFERENCES message (message_id),
+ FOREIGN KEY (place_id) REFERENCES place (place_id),
  UNIQUE (reported_user_id, report_user_id, course_id),
  UNIQUE (reported_user_id, report_user_id, place_id),
  UNIQUE (reported_user_id, report_user_id, comment_id),
