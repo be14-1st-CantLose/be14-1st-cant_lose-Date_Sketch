@@ -8,6 +8,9 @@ UPDATE user
 
 -- 회원 탈퇴 조회
 SELECT
-        is_deleted
+       user_name
+     , user_email
+     , user_nickname
+     , is_deleted
   FROM user
  WHERE user_email = 'abc9541@gmail.com';
