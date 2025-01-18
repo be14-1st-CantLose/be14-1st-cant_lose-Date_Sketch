@@ -310,6 +310,8 @@ CREATE TABLE report
     place_id    INT COMMENT '장소 id',
  PRIMARY KEY ( saved_id ),
  CHECK (save_type IN ('PLACE', 'COURSE')),
+ UNIQUE (user_id, course_id),
+ UNIQUE (user_id, place_id),
  FOREIGN KEY (user_id) REFERENCES user (user_id),
  FOREIGN KEY (place_id) REFERENCES place (place_id),
  FOREIGN KEY (course_id) REFERENCES course (course_id),
