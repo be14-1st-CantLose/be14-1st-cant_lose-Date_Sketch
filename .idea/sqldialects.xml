@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/src/test_cases/admin/notice_delete.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/admin/notice_management/notice_delete.sql" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/test_cases/admin/place_verify_management/place_badge_register.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/course.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/my_page/follow_management/member_follow.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/place/place_management/place_register.sql" dialect="MariaDB" />
