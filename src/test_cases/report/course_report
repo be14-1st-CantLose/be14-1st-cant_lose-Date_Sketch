@@ -1,0 +1,6 @@
+-- ------------------
+-- 코스 신고 등록
+
+INSERT INTO report (created_at, report_contents, report_approved, report_type, user_id, course_id)
+VALUES 
+    (CURRENT_TIMESTAMP, '코스 설명이 부정확합니다.', 'NO', 'COURSE', 3, 1);
