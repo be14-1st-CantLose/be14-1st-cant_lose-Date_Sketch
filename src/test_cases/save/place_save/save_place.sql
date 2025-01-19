@@ -1,4 +1,5 @@
-INSERT
+
+ INSERT
   INTO save
 (
   category_id
@@ -13,3 +14,7 @@ VALUES
 , 'PLACE'
 , 1
 );
+
+
+
+
