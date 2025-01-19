@@ -1,5 +1,3 @@
-
-
 # DateSketch
 
 <br>
@@ -7,7 +5,7 @@
 <br>
 
 # 👩🏻‍💻 프로젝트 멤버 소개
-| ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779)|
+| ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) |![신민경](https://github.com/user-attachments/assets/8be69f2f-8f94-4ab2-95f4-648b800a7c94)|![예원](https://github.com/user-attachments/assets/40917cf0-813f-4713-bc38-eafece41d26c) |![이준규](https://github.com/user-attachments/assets/0c42c668-5ed2-4b2f-856f-e5eefdcfc77b)|![정동한](https://github.com/user-attachments/assets/da0a8c0a-a445-4d2d-912d-81c92b00642a)|![조윤태](https://github.com/user-attachments/assets/997de1dd-aab1-4cae-b92f-f4efe016d86c)|
 |---|---|---|---|---|---|
 | 권민수 | 신민경 | 이예원 | 이준규 | 정동한 | 조윤태
 
