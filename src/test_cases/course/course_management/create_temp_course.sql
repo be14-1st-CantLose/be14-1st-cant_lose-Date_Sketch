@@ -32,4 +32,4 @@ VALUES
 -- 코스 1: 장소 1, 2, 3
 (@var_course_id, 1, 1),
 (@var_course_id, 2, 2),
-(@var_course_id, 3, 3),
+(@var_course_id, 3, 3);

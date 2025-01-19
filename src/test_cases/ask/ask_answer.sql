@@ -8,9 +8,9 @@ UPDATE ask
 
 -- 답변이 됐는지 확인한다.
 SELECT
-    ask_title
+       ask_title
      , ask_contents
      , ask_reply
      , created_at
      , ask_response_at
-FROM ask;
+  FROM ask;
