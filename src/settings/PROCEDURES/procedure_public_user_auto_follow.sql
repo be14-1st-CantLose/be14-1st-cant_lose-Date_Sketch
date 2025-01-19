@@ -1,5 +1,7 @@
 -- 팔로우 시, 공개 계정 자동 팔로우 수락
 
+DROP PROCEDURE IF EXISTS after_update_follow;
+
 DELIMITER //
 
 CREATE OR REPLACE PROCEDURE after_update_follow(

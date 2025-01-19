@@ -1,3 +1,5 @@
+DROP TRIGGER IF EXISTS handle_report_resolution;
+
 DELIMITER $$
 
 CREATE TRIGGER handle_report_resolution
