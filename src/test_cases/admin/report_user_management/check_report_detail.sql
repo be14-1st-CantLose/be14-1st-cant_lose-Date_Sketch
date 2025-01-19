@@ -42,3 +42,6 @@ LEFT JOIN
     user c ON a.reported_user_id = c.user_id
 WHERE
     a.report_id = 1;
+
+
+

@@ -1,6 +1,5 @@
--- 최하단에 별점 관련 초기화 코드 있음. 
+-- 최하단에 별점 관련 초기화 코드 있음.
 -- 무조건 전체 실행 요망
-
 INSERT INTO place (place_id, place_name, addr_gu, addr_detail, phone_number, homepage, operation_hours, link, is_verified, rating_avg, rating_count, user_id)
 VALUES
 (1, '가게 1', '마포구', '81-1', '02-872-5024', 'http://place1.com', '10:00-22:00', 'http://link1.com', 'YES', 3.26, 150, 117),

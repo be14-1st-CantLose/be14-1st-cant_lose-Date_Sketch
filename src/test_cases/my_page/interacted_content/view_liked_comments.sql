@@ -1,6 +1,17 @@
 -- 좋아요한 댓글 확인
 -- 회원 1이 좋아요한 댓글 확인
-SELECT l.likes_id, l.user_id, l.likes_type, c.comment_type, c.comment_contents, c.created_at, c.updated_at, c.likes
-FROM likes l
-         JOIN comment c ON l.comment_id = c.comment_id
-WHERE l.user_id = 1 AND l.likes_type = 'COMMENT';
+SELECT
+       a.likes_id
+     , a.user_id
+     , a.likes_type
+     , b.comment_type
+     , b.comment_contents
+     , b.created_at
+     , b.updated_at
+     , b.likes
+  FROM likes a
+  JOIN comment b ON a.comment_id = b.comment_id
+ WHERE a.user_id = 1
+   AND a.likes_type = 'COMMENT';
+
+select * from likes;

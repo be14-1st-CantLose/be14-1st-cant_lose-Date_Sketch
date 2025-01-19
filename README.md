@@ -1,15 +1,31 @@
-
-
 # DateSketch
 
 <br>
+
 <br>
 <br>
 
 # 👩🏻‍💻 프로젝트 멤버 소개
-| ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779) | ![Image](https://github.com/user-attachments/assets/497297ce-3e2b-4c13-9057-b1d9a5729779)|
-|---|---|---|---|---|---|
-| 권민수 | 신민경 | 이예원 | 이준규 | 정동한 | 조윤태
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/b5460063-eca5-46f7-95d6-6ab4eb566013" width="100"></td>
+    <td><img src="https://github.com/user-attachments/assets/8be69f2f-8f94-4ab2-95f4-648b800a7c94" width="100"></td>
+    <td><img src="https://github.com/user-attachments/assets/40917cf0-813f-4713-bc38-eafece41d26c" width="100"></td>
+    <td><img src="https://github.com/user-attachments/assets/0c42c668-5ed2-4b2f-856f-e5eefdcfc77b" width="100"></td>
+    <td><img src="https://github.com/user-attachments/assets/da0a8c0a-a445-4d2d-912d-81c92b00642a" width="100"></td>
+    <td><img src="https://github.com/user-attachments/assets/997de1dd-aab1-4cae-b92f-f4efe016d86c" width="100"></td>
+  </tr>
+  <tr>
+    <td>권민수</td>
+    <td>신민경</td>
+    <td>이예원</td>
+    <td>이준규</td>
+    <td>정동한</td>
+    <td>조윤태</td>
+  </tr>
+</table>
+
 
 <br>
 <br>
@@ -71,7 +87,8 @@ Date Sketch는 사용자의 추천 코스와 지역별 인기 장소를 사용�
 <summary>WBS</summary>
 <div markdown="1">
   
-<img width="1363" alt="Image" src="https://github.com/user-attachments/assets/29a88b04-4223-4964-9b1a-371ea8ff0bc9" />
+<img width="1403" alt="스크린샷 2025-01-19 오후 7 53 42" src="https://github.com/user-attachments/assets/0116cced-28cf-42f1-a9ed-fb5638bf6abe" />
+
 
 </div>
 </details>
@@ -98,8 +115,17 @@ Date Sketch는 사용자의 추천 코스와 지역별 인기 장소를 사용�
 
 ## 9. 테스트 케이스 명세서
 
+<details>
+<summary>테스트 케이스 명세서 </summary>
+<div markdown="1">
+  
+<img width="1403" alt="스크린샷 2025-01-19 오후 7 53 42" src="https://github.com/user-attachments/assets/805296d8-4d61-4788-becc-9f5c9b8f5b41" />
+
+</div>
+</details>
 
 <br>
+
 
 
 

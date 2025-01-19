@@ -38,7 +38,7 @@ CREATE TABLE user
     user_phone    VARCHAR(255) NOT NULL COMMENT '휴대폰번호',
     user_nickname    VARCHAR(255) NOT NULL COMMENT '닉네임',
     user_gender    VARCHAR(255) NOT NULL COMMENT '성별',
-    user_status    VARCHAR(255) COMMENT '계정 공개 여부',
+    user_status    VARCHAR(255) NOT NULL COMMENT '계정 공개 여부',
     created_at    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '가입날짜',
     updated_at    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '수정날짜',
     user_suspension_at    DATETIME COMMENT '정지 해제 날짜',
@@ -330,4 +330,4 @@ CREATE TABLE report
  COMMENT = '저장';
  
 -- -------------------------------------------------------------------------------------------------테이블 확인
- SHOW TABLES;
+SHOW TABLES;
