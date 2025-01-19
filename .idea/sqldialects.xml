@@ -3,11 +3,9 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/src/dummy_data/coursePlace_dummydata_4428.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/dummy_data/course_dummyDaata_1500.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/src/dummy_data/likesOnCourse_dummyData_10000" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/dummy_data/place_dummyData_900.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/admin/notice_management/notice_delete.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/admin/place_verify_management/place_badge_register.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/src/test_cases/course.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/my_page/block_management/view_blocked_members.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/my_page/course_settings/set_course_visibility_private.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/my_page/course_settings/set_course_visibility_public.sql" dialect="MariaDB" />
@@ -28,7 +26,6 @@
     <file url="file://$PROJECT_DIR$/src/test_cases/place/place_management/place_register.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/place/place_management/place_update.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/place/place_search/place_rating_search.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/src/test_cases/procedure_public_user_auto_follow.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/save/common/create_saved_category.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/save/common/delete_saved_category.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/save/common/select_saved_category.sql" dialect="MariaDB" />
@@ -41,8 +38,6 @@
     <file url="file://$PROJECT_DIR$/src/test_cases/save/place_save/save_place.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/save/place_save/select_saved_place.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/save/place_save/update_saved_place_category.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/src/test_cases/trigger_likes.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/src/test_cases/trigger_user,category.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/join_member/join_member.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/login/find_id.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/login/find_password.sql" dialect="MariaDB" />
@@ -54,11 +49,6 @@
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_status_private.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_status_public.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/src/test_cases/user_information/user_info_manage/user_type_search.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/src/test_cases/user_testcases.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/table_settings/table_settings.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/tmp/admin/accept_report.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/tmp/admin/check_report_detail.sql" dialect="MariaDB" />
-    <file url="file://$PROJECT_DIR$/tmp/admin/delete_report.sql" dialect="MariaDB" />
     <file url="PROJECT" dialect="MariaDB" />
   </component>
 </project>
