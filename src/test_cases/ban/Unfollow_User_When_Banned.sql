@@ -24,14 +24,19 @@ SELECT * FROM follow;
 -- 팔로우 되어있을 때 차단을 하는 경우 팔로우 해제하는 트리거
 DELIMITER //
 
-CREATE TRIGGER after_ban_insert
+CREATE TRIGGER after_ban_inserts
 AFTER INSERT ON ban
 FOR EACH ROW
 BEGIN
-    -- 차단한 사용자와 차단당한 사용자 간의 팔로우 관계를 삭제
+    -- 차단한 사용자와 차단당한 사용자 간의 팔로우 관계를 삭제 (사람1 → 사람2)
     DELETE FROM follow
     WHERE follower_id = NEW.user_ban_id AND followed_id = NEW.user_banned_id;
+
+    -- 차단당한 사용자와 차단한 사용자 간의 팔로우 관계를 삭제 (사람2 → 사람1)
+    DELETE FROM follow
+    WHERE follower_id = NEW.user_banned_id AND followed_id = NEW.user_ban_id;
 END;
 //
 
 DELIMITER ;
+
