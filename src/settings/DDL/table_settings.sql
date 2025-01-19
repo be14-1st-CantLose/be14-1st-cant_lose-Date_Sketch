@@ -325,7 +325,6 @@ CREATE TABLE report
  FOREIGN KEY (place_id) REFERENCES place (place_id),
  FOREIGN KEY (course_id) REFERENCES course (course_id),
  FOREIGN KEY (category_id) REFERENCES save_category (saved_category_id)
- ON DELETE CASCADE
 )
  COMMENT = '저장';
  
