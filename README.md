@@ -115,8 +115,17 @@ Date Sketch는 사용자의 추천 코스와 지역별 인기 장소를 사용�
 
 ## 9. 테스트 케이스 명세서
 
+<details>
+<summary>테스트 케이스 명세서 </summary>
+<div markdown="1">
+  
+<img width="1403" alt="스크린샷 2025-01-19 오후 7 53 42" src="https://github.com/user-attachments/assets/805296d8-4d61-4788-becc-9f5c9b8f5b41" />
+
+</div>
+</details>
 
 <br>
+
 
 
 
