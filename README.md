@@ -69,7 +69,8 @@ Date Sketch는 사용자의 추천 코스와 지역별 인기 장소를 사용�
 <summary>WBS</summary>
 <div markdown="1">
   
-<img width="1363" alt="Image" src="https://github.com/user-attachments/assets/29a88b04-4223-4964-9b1a-371ea8ff0bc9" />
+<img width="1403" alt="스크린샷 2025-01-19 오후 7 53 42" src="https://github.com/user-attachments/assets/0116cced-28cf-42f1-a9ed-fb5638bf6abe" />
+
 
 </div>
 </details>
