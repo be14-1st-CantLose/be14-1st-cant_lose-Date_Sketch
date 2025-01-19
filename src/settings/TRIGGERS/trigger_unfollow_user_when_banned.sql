@@ -22,6 +22,8 @@ VALUES (TRUE, 1, 2);
 SELECT * FROM follow;
 -- ----------------------
 -- 팔로우 되어있을 때 차단을 하는 경우 팔로우 해제하는 트리거
+DROP TRIGGER IF EXISTS after_ban_inserts;
+
 DELIMITER //
 
 CREATE TRIGGER after_ban_inserts
