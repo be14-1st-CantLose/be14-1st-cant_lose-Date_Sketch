@@ -13,4 +13,5 @@ SELECT
      , user_nickname
      , is_deleted
   FROM user
- WHERE user_email = 'abc9541@gmail.com';
+ WHERE user_email = 'abc9541@gmail.com'
+   AND is_deleted = TRUE;
