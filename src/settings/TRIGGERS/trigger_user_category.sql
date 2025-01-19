@@ -1,5 +1,7 @@
 -- 회원 가입 시 기본 카테고리 생성
 
+DROP TRIGGER IF EXISTS after_insert_user;
+
 DELIMITER // 
 
 CREATE OR REPLACE TRIGGER after_insert_user

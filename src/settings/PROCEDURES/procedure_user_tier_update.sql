@@ -7,6 +7,8 @@ CALL UpdateUserTiersByDate('2025.02.01');
 -- FROM test.`user` AS u
 -- GROUP BY tier_id;
 
+DROP PROCEDURE IF EXISTS after_update_follow;
+
 DELIMITER //
 
 CREATE PROCEDURE UpdateUserTiersByDate(IN input_date DATE)
