@@ -5,7 +5,7 @@ CALL UpdateUserTiersByDate('2025.02.01');
 -- 등급별 인원 조회 
 -- SELECT u.tier_id,COUNT(*)
 -- FROM test.`user` AS u
---GROUP BY tier_id;
+-- GROUP BY tier_id;
 
 DELIMITER //
 

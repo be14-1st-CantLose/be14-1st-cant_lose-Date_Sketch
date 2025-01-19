@@ -1,4 +1,4 @@
--- 회원 가입 쿼리
+    -- 회원 가입 쿼리
 USE test;
 select * from user;
 INSERT INTO user
