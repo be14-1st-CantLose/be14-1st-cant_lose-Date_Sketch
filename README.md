@@ -114,6 +114,7 @@ Date Sketch는 사용자의 추천 코스와 지역별 인기 장소를 사용�
 ## 8. 데이터 모델링
   
 ![ERD](https://github.com/user-attachments/assets/ed457812-d7d0-40ca-9f36-1e80dda9f9ca)
+![ERD_2](https://github.com/user-attachments/assets/d311bd87-0812-4738-88e2-17603e788a92)
 
 
 <br>
