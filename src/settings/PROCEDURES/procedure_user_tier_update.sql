@@ -7,7 +7,7 @@ CALL UpdateUserTiersByDate('2025.02.01');
 -- FROM test.`user` AS u
 -- GROUP BY tier_id;
 
-DROP PROCEDURE IF EXISTS after_update_follow;
+DROP PROCEDURE IF EXISTS UpdateUserTiersByDate;
 
 DELIMITER //
 
@@ -15,10 +15,10 @@ CREATE PROCEDURE UpdateUserTiersByDate(IN input_date DATE)
 BEGIN
     DECLARE target_month DATE;
 
-    -- Calculate the target month (previous month of the input date)
+    -- 한 달 계산
     SET target_month = LAST_DAY(input_date - INTERVAL 1 MONTH);
 
-    -- Create a temporary table to calculate likes by user
+    -- 계산을 위한 테이블 생성
     CREATE TEMPORARY TABLE temp_user_likes AS
     SELECT 
         c.user_id, 
@@ -32,7 +32,7 @@ BEGIN
     ORDER BY 
         total_likes DESC;
 
-    -- Update tier_id for top users based on their ranking
+    -- 랭킹 기반 티어 업데이트
     UPDATE user u
     JOIN (
         SELECT 
@@ -49,14 +49,14 @@ BEGIN
             ELSE 1
         END;
 
-    -- Reset tier_id to 1 for all users not in the temporary table
+    -- 나머지 유저는 1(일반)으로
     UPDATE user
     LEFT JOIN temp_user_likes
     ON user.user_id = temp_user_likes.user_id
     SET tier_id = 1
     WHERE temp_user_likes.user_id IS NULL;
 
-    -- Drop the temporary table
+    -- 계산을 위해 생성했던 테이블 삭제
     DROP TEMPORARY TABLE temp_user_likes;
 
 END //
