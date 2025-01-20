@@ -1,5 +1,3 @@
-USE test;
-
 -- 로그인 성공 쿼리
 SELECT
         *

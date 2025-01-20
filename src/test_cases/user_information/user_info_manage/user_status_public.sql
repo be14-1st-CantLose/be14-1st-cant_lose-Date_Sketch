@@ -4,7 +4,7 @@ select * from user;
 UPDATE user
    SET user_status = 'PUBLIC'
  WHERE user_email = 'abc9541@gmail.com'
-   AND user_pwd = '06030603';
+   AND user_pwd = 'hashed_pwd';
 
 -- 사용자 공개 확인
 SELECT
@@ -14,4 +14,4 @@ SELECT
      , user_status
   FROM user
  WHERE user_email = 'abc9541@gmail.com'
-   AND user_pwd = '06030603';
+   AND user_pwd = 'hashed_pwd';

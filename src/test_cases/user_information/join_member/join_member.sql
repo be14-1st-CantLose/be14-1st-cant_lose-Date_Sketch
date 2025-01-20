@@ -14,7 +14,7 @@ INSERT INTO user
 VALUES
 (
   'abc9541@gmail.com'
-, '1234'
+, 'hashed_password'
 , '이준규'
 , '010-1234-1234'
 , '준규준규'
@@ -38,7 +38,7 @@ INTO user
 VALUES
 (
   'yemong@gmail.com'
-, '1234'
+, 'hashed_password'
 , '이예원'
 , '010-1234-1234'
 , 'AD예몽'

@@ -1,5 +1,4 @@
-USE test;
--- 별점 별로 장소를 검색
+ -- 별점 별로 장소를 검색
 SELECT
        place_name
      , addr_gu

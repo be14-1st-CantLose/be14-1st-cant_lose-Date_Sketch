@@ -1,8 +1,6 @@
-USE test;
-
 -- 비밀번호 찾기
 SELECT
-        user_name
+       user_name
   FROM user
  WHERE user_name = '이준규'
    AND user_email = 'abc9541@gmail.com'
