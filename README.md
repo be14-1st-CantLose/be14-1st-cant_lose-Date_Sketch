@@ -85,15 +85,9 @@ Date Sketch는 사용자의 추천 코스와 지역별 인기 장소를 사용�
 
 ## 5. 요구사항 명세서
 
-<details>
-<summary>요구사항 명세서</summary>
-<div markdown="1">
-
 <img width="1287" alt="Image" src="https://github.com/user-attachments/assets/7be16ae2-d0cf-4b43-bbd7-0b4a94eb7d66" />
 <img width="1375" alt="Image" src="https://github.com/user-attachments/assets/e3c3adf0-118a-40be-b272-1bff5c3f7852" />
 
-</div>
-</details>
 
 <br>
 
@@ -127,9 +121,7 @@ Date Sketch는 사용자의 추천 코스와 지역별 인기 장소를 사용�
 <img width="1395" alt="스크린샷 2025-01-20 오전 11 50 04" src="https://github.com/user-attachments/assets/6fa4b3a6-9e99-4968-9882-e5b8aef92e61" />
 <img width="1393" alt="스크린샷 2025-01-20 오전 11 50 24" src="https://github.com/user-attachments/assets/34987b01-1c9c-4aa0-9a61-c00c163f8107" />
 
-<details>
-<summary>테스트 케이스 명세서 </summary>
-<div markdown="1">
+
 
 
 </div>
