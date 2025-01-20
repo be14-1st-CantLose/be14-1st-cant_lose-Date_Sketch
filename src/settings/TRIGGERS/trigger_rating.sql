@@ -1,3 +1,6 @@
+DROP TRIGGER IF EXISTS update_place_rating_after_insert;
+DROP TRIGGER IF EXISTS update_place_rating_after_update
+
 DELIMITER //
 
 CREATE OR REPLACE TRIGGER update_place_rating_after_insert
