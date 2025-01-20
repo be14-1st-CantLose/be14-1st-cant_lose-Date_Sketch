@@ -5,4 +5,4 @@ SELECT
        user_type
   FROM user
  WHERE user_email = 'abc9541@gmail.com'
-   AND user_pwd = '06030603';
+   AND user_pwd = 'hashed_pwd';
