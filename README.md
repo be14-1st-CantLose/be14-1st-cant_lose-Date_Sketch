@@ -163,9 +163,10 @@
 <img width="1393" alt="스크린샷 2025-01-20 오전 11 50 24" src="https://github.com/user-attachments/assets/34987b01-1c9c-4aa0-9a61-c00c163f8107" />
 
 <details>
-<summary>테스트 케이스 명세서 </summary>
+<summary>테스트 케이스 링크 </summary>
 <div markdown="1">
 
+[test-case](src/test_cases)
 
 </div>
 </details>
