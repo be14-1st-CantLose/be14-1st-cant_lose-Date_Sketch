@@ -154,55 +154,20 @@
 
 <br>
 
-##
-
 
 ## 8. 테스트 케이스 명세서
 
 <img width="1395" alt="스크린샷 2025-01-20 오전 11 50 04" src="https://github.com/user-attachments/assets/6fa4b3a6-9e99-4968-9882-e5b8aef92e61" />
 <img width="1393" alt="스크린샷 2025-01-20 오전 11 50 24" src="https://github.com/user-attachments/assets/34987b01-1c9c-4aa0-9a61-c00c163f8107" />
 
-<details>
-<summary>테스트 케이스 링크 </summary>
-<div markdown="1">
 
+### 테스트 케이스 링크 
 [test-case](src/test_cases)
 
-</div>
-</details>
 
 <br>
 
-## 9. 테스트 케이스 
-
-> ## **유저**
-<details>
-<summary></summary>
-<div markdown="1">
-
-```sql
-
-    
-```
-
-</div>
-</details>
-
-<details>
-<summary>신규 회원 가입</summary>
-<div markdown="1">
-
-```sql
-
-    
-```
-
-</div>
-</details>
-
-<br>
-
-## 10. 동료 평가 
+## 9. 동료 평가 
 
 ### 권민수
 | Team Member | Peer Review |
